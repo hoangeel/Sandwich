@@ -1,0 +1,165 @@
+div.WhySandwichNetwork{
+    height: 1009px;
+    width: 1440px;
+    border-radius: 0px;
+    position: relative;
+    h1{
+        position: absolute;
+        width: 625px;
+        height: 56px;
+        left: 426px;
+        top: 129px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #23262F;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 20px 0px;
+    }
+    p.text{
+        position: absolute;
+        width: 587px;
+        height: 62px;
+        left: 445px;
+        top: 205px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 31px;
+        text-align: center;
+        color: #777E91;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 20px 0px;
+    }
+    div.background{
+        position: absolute;
+        width: 498px;
+        height: 498px;
+        left: 489px;
+        top: 315px;
+        background: linear-gradient(315.29deg, rgba(110, 118, 182, 0) 15.8%, #6E76B6 149.6%);
+        border-radius: 50%;
+    }
+    div.Crypto_Compositions_1{
+        position: absolute;
+        width: 146.88px;
+        height: 126px;
+        left: 885px;
+        top: 330px;
+        background: url(./img/Crypto_Compositions_1.png);
+    }
+    div.Crypto_Compositions_2{
+        position: absolute;
+        width: 98px;
+        height: 84px;
+        left: 345px;
+        top: 695px;
+        background: url(./img/Crypto_Compositions_2.png);
+    }
+    div.Crypto_Compositions_3{
+        position: absolute;
+        width: 100px;
+        height: 86px;
+        left: 345px;
+        top: 300px;
+        background: url(./img/Crypto_Compositions_3.png);
+    }
+    div.Problem{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 40px;
+        position: absolute;
+        width: 336px;
+        height: 403px;
+        left: 382px;
+        top: 351px;       
+        background: rgba(244, 247, 255, 0.33);
+        backdrop-filter: blur(59px);
+        border-radius: 17px;
+        h3{
+            position: absolute;
+            width: 256px;
+            height: 24px;
+            left: 40px;
+            top: 40px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #23262F;          
+        }
+        p{
+            position: absolute;
+            width: 256px;
+            height: 279px;
+            left: 40px;
+            top: 84px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 31px;
+            color: #777E91;
+        }
+    }
+    div.Solution{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 40px;
+        position: absolute;
+        width: 336px;
+        height: 372px;
+        left: 758px;
+        top: 425px;
+        background: rgba(81, 86, 140, 0.33);
+        backdrop-filter: blur(20px);
+        border-radius: 17px;
+        h3{
+            position: absolute;
+            width: 256px;
+            height: 24px;
+            left: 40px;
+            top: 40px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+        p{
+            position: absolute;
+            width: 247px;
+            height: 248px;
+            left: 40px;
+            top: 84px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 31px;
+            color: #FFFFFF;
+        }
+    }
+    div.footer{
+        position: absolute;
+        width: 1440px;
+        height: 351px;
+        left: 0px;
+        top: 658px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F4F5F6 100%);
+    }
+}

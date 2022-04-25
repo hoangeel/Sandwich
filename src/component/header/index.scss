@@ -1,0 +1,385 @@
+
+div.header{
+    position:relative;
+    width: 100%;
+    height: 971px;
+    div.menu{
+        height: 93px;
+        width: 1440px;
+        left: -1px;
+        top: 5px;
+        border-radius: 0px;
+        background: #FFFFFF;
+        position: absolute;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+        img{
+            height: 46px;
+            width: 148px;
+            left: 80px;
+            top: 23px;
+            border-radius: 0px;
+            position: absolute;
+        }
+        div.divider{
+            height: 40px;
+            width: 1px;
+            left: 281.25px;
+            top: 26px;
+            border-radius: 0px;
+            background: #E6E8EC;
+            position: absolute;
+        }
+        div.ConnectWallet{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 16px 24px;
+            position: absolute;
+            width: 153px;
+            height: 48px;
+            right: 80px;
+            top: 22px;
+            background: #35C4FF;
+            border-radius: 90px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 0px 1px;
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            color: #FCFCFD;
+        }
+        ul{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            color: #777E91;
+            li.SandwichBeta{
+                padding:0px ;
+                height: 16px;
+                width: 98px;
+                left: 347px;
+                top: 40px;
+                border-radius: nullpx;
+                position: absolute;
+            }
+            li.SandwichSAFU{
+                height: 16px;
+                width: 105px;
+                left: 535.5px;
+                top: 40px;
+                border-radius: nullpx;                
+                position: absolute;
+            }
+            li.SandwichTools{
+                height: 16px;
+                width: 103px;
+                left: 719.5px;
+                top: 40px;
+                border-radius: nullpx;
+                position: absolute;
+            }
+            li.SandwichSwap{
+                height: 16px;
+                width: 105px;
+                left: 901.5px;
+                top: 40px;
+                border-radius: nullpx;
+                position: absolute;
+            }
+            button{
+                color: #777E91;
+                margin: 0px;
+                padding: 0px;
+                border:#FFFFFF;
+                background: #FFFFFF;
+
+            }
+            button.Comingsoon{
+                width: 90px;
+                height: 12px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 12px;
+                text-align: center;
+                color: #777E91;
+                border:#FFFFFF;
+                background: #FFFFFF;
+            }
+        }
+    }
+    div.Crypto_Compositions_1{
+        background: url(./img/Crypto_Compositions_1.png);
+        position: absolute;
+        width: 136px;
+        height: 116px;
+        left: -76px;
+        top: 92px;        
+    }
+    div.Crypto_Compositions_2{
+        background: url(./img/Crypto_Compositions_2.png);
+        position: absolute;
+        width: 77px;
+        height: 66px;
+        left: 496px;
+        top: 117px;
+        opacity: 0.4;
+        filter: blur(9px);
+    }
+    div.Crypto_Compositions_3{
+        background: url(./img/Crypto_Compositions_3.png);
+        position: absolute;
+        width: 64.41px;
+        height: 55.25px;
+        left: 700px;
+        top: 180px;        
+    }
+    div.Crypto_Compositions_4{
+        background: url(./img/Crypto_Compositions_4.png);
+        position: absolute;
+        width: 156.06px;
+        height: 133.88px;
+        left: 1296.06px;
+        top: 389.31px;
+    }
+    div.Crypto_Compositions_5{
+        background: url(./img/Crypto_Compositions_5.png);
+        position: absolute;
+        width: 37px;
+        height: 32px;
+        left: 643px;
+        top: 619px;
+    }
+    div.Crypto_Compositions_6{
+        background: url(./img/Crypto_Compositions_6.png);
+        position: absolute;
+        width: 74px;
+        height: 64px;
+        left: -43px;
+        top: 732px;        
+    }
+    div.Crypto_Compositions_7{
+        background: url(./img/Crypto_Compositions_7.png);
+        position: absolute;
+        width: 101px;
+        height: 259px;
+        left: 1336px;
+        top: 635px;        
+    }
+    div.Crypto_Compositions_8{
+        background: url(./img/Crypto_Compositions_8.png);
+        position: absolute;
+        width: 86.7px;
+        height: 74.38px;
+        left: 734px;
+        top: 457.31px;      
+    }
+    div.image3{
+        background: url(./img/image3.png); 
+        position: absolute;
+        width: 616.25px;
+        height: 616.25px;
+        left: 762.69px;
+        top: 180px;
+    }
+    div.title{
+        position:absolute;
+        width: 613px;
+        height: 163px;
+        left: 120px;
+        top: 285.5px;
+        p{
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 82px;
+            color: #23262F;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            span{
+                color: #FF5757;
+            }
+        }
+    }
+    div.text{
+        position: absolute;
+        width: 523px;
+        height: 93px;
+        left: 120px;
+        top: 479px;   
+        font-family:'Times New Roman', Times, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 31px;
+        color: #777E91;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 0px;
+        
+    }
+    button.LaunchApp{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 22px 35px;
+        position: absolute;
+        width: 164px;
+        height: 60px;
+        left: 120px;
+        top: 619px;
+        background: #FF5757;
+        border-radius: 90px;
+        border: #FFFFFF;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FCFCFD;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    button.PitchDeck{
+        position: absolute;
+        width: 163px;
+        height: 67px;
+        left: 299px;
+        top: 616px;
+        background-color: #FFFFFF;
+        border: 1px solid #FF5757;
+        box-sizing: border-box;
+        border-radius: 90px;
+        color: #FF5757;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+    }
+    div.footer{
+        div.Binance{
+            background: url(./img/PngItem_5.png);
+            height: 37px;
+            width: 129px;
+            left: 120px;
+            top: 829px;
+            border-radius: 0px;
+            position: absolute; 
+        }
+        div.Polygon{
+            background: url(./img/PngItem_4.png);
+            height: 29.98692512512207px;
+            width: 132.11956787109375px;
+            left: 341px;
+            top: 829px;
+            border-radius: 0px;
+            position: absolute; 
+            p{
+                position: absolute;
+                width: 90px;
+                height: 15px;
+                left:23px;
+                top: 37px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 10px;
+                line-height: 15px;
+                letter-spacing: 0.115em;
+                text-transform: uppercase;  
+                color: #B6B6B6;
+            }             
+        }
+        div.Ethereum{
+            background: url(./img/PngItem_3.png);
+            height: 45.63227462768555px;
+            width: 115.36294555664062px;
+            left: 562px;
+            top: 821px;
+            border-radius: 0px;
+            position: absolute; 
+            p{
+                position: absolute;
+                width: 90px;
+                height: 15px;
+                left:32.07px;
+                top: 44.64px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 10px;
+                line-height: 15px;
+                letter-spacing: 0.115em;
+                text-transform: uppercase;  
+                color: #B6B6B6;
+            }   
+        }
+        div.Solana{
+            background: url(./img/PngItem_2.png);
+            height: 45.63227462768555px;
+            width: 115.36294555664062px;
+            left: 761px;
+            top: 821px;
+            border-radius: 0px;
+            position: absolute;
+            p{
+                position: absolute;
+                width: 90px;
+                height: 15px;
+                left:16px;
+                top: 45px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 10px;
+                line-height: 15px;
+                letter-spacing: 0.115em;
+                text-transform: uppercase;  
+                color: #B6B6B6;
+            }    
+        }
+        div.Avalanche{
+            background: url(./img/PngItem_1.png);
+            height: 27px;
+            width: 138.36294555664062px;
+            left: 944px;
+            top: 826px;
+            border-radius: 0px;
+            position: absolute; 
+            p{
+                position: absolute;
+                width: 90px;
+                height: 15px;
+                left:33px;
+                top: 36px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 10px;
+                line-height: 15px;
+                letter-spacing: 0.115em;
+                text-transform: uppercase;  
+                color: #B6B6B6;
+            }   
+        }
+    }
+}

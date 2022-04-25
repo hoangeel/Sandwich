@@ -1,0 +1,608 @@
+div.footer{
+    position: relative;
+    height: 2627px;
+    width: 100%;
+    h1{
+        position: absolute;
+        width: 470px;
+        height: 67px;
+        left: 485px;
+        top: 336px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 56px;
+        color: #000000;
+    }
+    div.logo_1{
+        background: url(./img/logo_1.png);
+        position: absolute;
+        width: 141.28px;
+        height: 73.34px;
+        left: 109.55px;
+        top: 494.63px;
+    }
+    div.logo_2{
+        background: url(./img/logo_2.png);
+        position: absolute;
+        width: 98.14px;
+        height: 89.51px;
+        left: 329.56px;
+        top: 486px;
+    }
+    div.logo_3{
+        background: url(./img/logo_3.png);
+        position: absolute;
+        width: 140.2px;
+        height: 57.16px;
+        left: 522.61px;
+        top: 502.18px;
+    }
+    div.logo_4{
+        background: url(./img/logo_4.png);
+        position: absolute;
+        width: 162.85px;
+        height: 66.87px;
+        left: 749.09px;
+        top: 497.86px;
+    }
+    div.logo_5{
+        background: url(./img/logo_5.png);
+        position: absolute;
+        width: 133.73px;
+        height: 69.02px;
+        left: 1000.37px;
+        top: 496.79px;
+    }
+    div.logo_6{
+        background: url(./img/logo_6.png);
+        position: absolute;
+        width: 81.96px;
+        height: 77.65px;
+        left: 1247.35px;
+        top: 492.47px;
+    }
+    div.logo_2_1{
+        background: url(./img/logo_2_1.png);
+        position: absolute;
+        width: 105.69px;
+        height: 85.2px;
+        left: 102px;
+        top: 616.5px;
+    }
+    div.logo_2_2{
+        background: url(./img/logo_2_2.png);
+        position: absolute;
+        width: 115.4px;
+        height: 73.34px;
+        left: 296.13px;
+        top: 622.97px;
+    }
+    div.logo_2_3{
+        background: url(./img/logo_2_3.png);
+        position: absolute;
+        width: 77.65px;
+        height: 77.65px;
+        left: 529.08px;
+        top: 620.81px;
+    }
+    div.logo_2_4{
+        background: url(./img/logo_2_4.png);
+        position: absolute;
+        width: 99.22px;
+        height: 64.71px;
+        left: 755.56px;
+        top: 627.28px;
+    }
+    div.logo_2_5{
+        background: url(./img/logo_2_5.png);
+        position: absolute;
+        width: 183.34px;
+        height: 56.08px;
+        left: 941.06px;
+        top: 631.59px;            
+    }
+    div.logo_2_6{
+        background: url(./img/logo_2_6.png);
+        position: absolute;
+        width: 148.83px;
+        height: 42.06px;
+        left: 1189.11px;
+        top: 638.07px;
+    }
+    div.logo_3_1{
+        background: url(./img/logo_3_1.png);
+        position: absolute;
+        width: 132.65px;
+        height: 58.24px;
+        left: 233.57px;
+        top: 742.68px;
+    }
+    div.logo_3_2{
+        background: url(./img/logo_3_2.png);
+        position: absolute;
+        width: 167.16px;
+        height: 37.75px;
+        left: 458.98px;
+        top: 753.46px;
+    }
+    div.logo_3_3{
+        background: url(./img/logo_3_3.png);
+        position: absolute;
+        width: 181.18px;
+        height: 30.2px;
+        left: 718.89px;
+        top: 756.7px;
+    }
+    div.logo_3_4{
+        background: url(./img/logo_3_4.png);
+        position: absolute;
+        width: 213.54px;
+        height: 52.85px;
+        left: 992.83px;
+        top: 754.91px;
+    }
+    div.logo_4_1{
+        background: url(./img/logo_4_1.png);
+        position: absolute;
+        width: 252.36px;
+        height: 70.1px;
+        left: 438.49px;
+        top: 841.9px;
+    }
+    div.logo_4_2{
+        background: url(./img/logo_4_2.png);
+        position: absolute;
+        width: 214.62px;
+        height: 44.22px;
+        left: 786.84px;
+        top: 854.84px;
+    }
+    div.background_1{
+        background: url(./img/background_1.png);
+        position: absolute;
+        width: 270px;
+        height: 270px;
+        left: 42px;
+        top: 1124px;
+    }
+    div.background_2{
+        background: url(./img/background_2.png);
+        position: absolute;
+        width: 100px;
+        height: 86px;
+        left: 322px;
+        top: 1119px;
+    }
+    div.background_3{
+        background: url(./img/background_3.png);
+        position: absolute;
+        width: 98px;
+        height: 84px;
+        left: 567px;
+        top: 1394px;
+    }
+    div.background_4{
+        background: url(./img/background_4.png);
+        position: absolute;
+        width: 146.88px;
+        height: 126px;
+        left: 862px;
+        top: 1149px;        
+    }
+    div.background_5{
+        background: url(./img/background_5.png);
+        position: absolute;
+        width: 270px;
+        height: 270px;
+        left: 1157px;
+        top: 1244px;
+    }
+    div.card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;   
+        position: absolute;
+        width: 1244px;
+        height: 252px;
+        left: 98px;
+        top: 1184px;       
+        background: rgba(255, 255, 255, 0.58);
+        backdrop-filter: blur(59px);
+        border-radius: 17px;
+        border: rgba(255, 255, 255, 0.58);
+
+        img{
+            position: absolute;
+            width: 244px;
+            height: 76px;
+            left: 79px;
+            top: 88px;
+        }
+        span{
+            position: absolute;
+            width: 2px;
+            height: 52px;
+            left: 356px;
+            top: 106px;
+            background: #FF5757;
+            opacity: 0.2;
+        }
+        p{
+            position: absolute;
+            width: 292px;
+            height: 29px;
+            left: 391px;
+            top: 118px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #777E91;
+        }
+        button.PitchDeck{
+            position: absolute;
+            width: 207px;
+            height: 67px;
+            left: 775px;
+            top: 93px;
+            background: #FF5757;
+            border-radius: 90px; 
+            border: #FF5757;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 16px;
+            text-align: center;
+            color: #FCFCFD;
+        }
+        button.Docs{
+            position: absolute;
+            width: 163px;
+            height: 67px;
+            left: 1005px;
+            top: 93px;
+            border: 1px solid #FF5757;
+            box-sizing: border-box;
+            border-radius: 90px;
+            background:rgba(255, 255, 255, 0.58);
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 16px;
+            text-align: center;
+            color: #FF5757;
+        }
+    }
+    div.Join_the_Community{
+        position: absolute;
+        left: 98px;
+        top: 1669.99px;
+        width: 1244px;
+        height: 610px;
+        background: #2BA6E1;
+        backdrop-filter: blur(59px);
+        border-radius: 27px;
+        h1{
+            position: absolute;
+            width: 457px;
+            height: 56px;
+            left: 90px;
+            top: 143px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 44px;
+            line-height: 56px;
+            color: #FFFFFF;
+        }
+        p{
+            position: absolute;
+            width: 388px;
+            height: 62px;
+            left: 93px;
+            top: 220px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 31px;
+            color: #FFFFFF;
+        }
+        button.Join_Us_On_Telegram{
+            position: absolute;
+            width: 350px;
+            height: 73px;
+            left: 90px;
+            top: 329px;
+            background: #FFFFFF;
+            border-radius: 1000px;
+            border: #FFFFFF;
+            p{
+                position: absolute;
+                width: 181px;
+                height: 36px;
+                left: 69px;
+                top: 19px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 36px;
+                color: #2BA6E1;
+            }
+            div.vector_2{
+                position: absolute;
+                width: 48px;
+                height: 0px;
+                left: 266px;
+                top: 37px;
+                border: 2px solid #2BA6E1;
+                background: #2BA6E1;
+            }
+            div.vector_3{
+                background: url(./img/Vector_3.png);
+                position: absolute;
+                width: 9px;
+                height: 17px;
+                right: 35px;
+                top: 30px;
+            }
+        }
+        button.Our_Medium{
+            position: absolute;
+            width: 167px;
+            height: 61px;
+            left: 90px;
+            top: 422px;
+            border: 1px solid #FFFFFF;
+            box-sizing: border-box;
+            border-radius: 1000px;
+            background: #2BA6E1;
+            div.item_M{
+                background: url(./img/item_M.png);
+                position: absolute;
+                left: 23px;
+                top: 23px;  
+                height: 16px;
+                width: 20px;
+                border-radius: 0px;
+            }
+            p{
+                position: absolute;
+                width: 83px;
+                height: 36px;
+                left: 55px;
+                top: 13px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 36px;
+                color: #FFFFFF;
+            }
+        }
+        button.Our_Twitter{
+            position: absolute;
+            width: 167px;
+            height: 61px;
+            left: 277px;
+            top: 422px;
+            border: 1px solid #FFFFFF;
+            box-sizing: border-box;
+            border-radius: 1000px;
+            background: #2BA6E1;
+            div.item_Twitter{
+                background: url(./img/item_twitter.png);
+                position: absolute;
+                height: 18.458526611328125px;
+                width: 22.70599937438965px;
+                left: 26.94px;
+                top: 21.75px;
+                border-radius: 0px;
+            }
+            p{
+                position: absolute;
+                width: 77px;
+                height: 36px;
+                left: 60px;
+                top: 13px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 36px;
+                color: #FFFFFF;
+            }
+        }
+        div.group37058{
+            background: url(./img/Group37058.png);
+            position: absolute;
+            height: 469px;
+            width: 441.05859375px;            
+            left: 655px;
+            top: 77px;
+            border-radius: 0px;
+        }
+        div.img91{
+            background: url(./img/image91.png);
+            position: absolute;
+            height: 429px;
+            width: 615px;
+            left: 567px;
+            top: 105.01px;
+            border-radius: 0px;
+            
+        }
+    }
+    li.item_LOGO{
+        img{
+            position: absolute;
+            height: 46px;
+            width: 148px;
+            left: 194px;
+            top: 2366px;
+            border-radius: 0px;            
+        }
+        p{
+            position: absolute;
+            width: 278px;
+            height: 69px;
+            left: 194px;
+            top: 2423px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 24px;
+            color: #777E90; 
+            padding: 0px;
+            margin: 0px;           
+        }
+    }
+    li.Products{
+        h4{
+            position: absolute;
+            width: 76px;
+            height: 12px;
+            left: 584px;
+            top: 2383px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 12px;
+            text-transform: uppercase;
+            color: #23262F;           
+        }
+        p{
+            position: absolute;
+            width: 119px;
+            height: 132px;
+            left: 584px;
+            top: 2416px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 30px;
+            color: #777E90; 
+            padding: 0px;
+            margin: 0px;         
+        }
+    }
+    li.Support{
+        h4{
+            position: absolute;
+            width: 64px;
+            height: 12px;
+            left: 815px;
+            top: 2383px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 12px;
+            text-transform: uppercase;
+            color: #23262F;                     
+        }
+        p{
+            position: absolute;
+            width: 119px;
+            height: 132px;
+            left: 815px;
+            top: 2416px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 30px;
+            color: #777E90; 
+            padding: 0px;
+            margin: 0px;         
+        }
+    }
+    li.Social{
+        h4{
+            position: absolute;
+            width: 64px;
+            height: 12px;
+            left: 1071px;
+            top: 2383px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 12px;
+            text-transform: uppercase;
+            color: #23262F;                     
+        }
+        p{
+            position: absolute;
+            width: 75px;
+            height: 99px;
+            left: 1103px;
+            top: 2416px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 30px;
+            color: #777E90; 
+            padding: 0px;
+            margin: 0px;         
+        }
+        div.item_Telegram{
+            background: url(./img/item_Telegram.png);
+            height: 15px;
+            width: 17px;
+            left: 1073px;
+            top: 2424px;
+            border-radius: 0px; 
+            position: absolute;          
+           
+        }
+        div.item_Twitter_black{
+            background: url(./img/item_Twitter_black.png);
+            height: 16px;
+            width: 20px;
+            left: 1072px;
+            top: 2451px;
+            border-radius: 0px;
+            position: absolute;          
+            
+        }
+        div.item_Medium{
+            background: url(./img/item_Medium.png);
+            height: 15.75px;
+            width: 15.75px;
+            left: 1073.62px;
+            top: 2481.62px;
+            border-radius: 0px;  
+            position: absolute;          
+        }
+    }
+    div.end{
+        position: absolute;
+        width: 324px;
+        height: 20px;
+        left: 558px;
+        top: 2587px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #777E91;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 24px;
+    }
+}

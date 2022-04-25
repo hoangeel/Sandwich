@@ -1,0 +1,127 @@
+div.SANDWICHToken{
+    position: relative;
+    width: 1440px;
+    height: 1037px;
+    background: #F4F5F6;
+    p.https{
+        position: absolute;
+        top: 45.32px;
+        left: 1101.21px; 
+        width: 598px;
+        height: 15px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+    }
+    h1{
+        position: absolute;
+        width: 462px;
+        height: 53px;
+        left: 489px;
+        top: 127px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #23262F;
+    }
+    div.cardMap{
+        div.item{
+            position: absolute;
+            width: 74.55px;
+            height: 74px;
+            left: 118.72px;
+            top: 51px;
+            background: #FFF5F5;
+            border-radius: 50%;
+            img{
+                position: absolute;
+                left: 33.33%;
+                top: 33.33%;
+            }
+        }
+        p.text{
+            position: absolute;
+            width: 194px;
+            height: 62px;
+            left: 59px;
+            bottom: 51px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 31px;
+            text-align: center;
+            color: #777E91;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            margin: 0px 0px;
+        }
+    }
+    div.Participate{
+        position: absolute;
+        width: 312px;
+        height: 263px;
+        left: 130px;
+        top: 263.19px;
+    }
+    div.Discounts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 51px 59px;
+        position: absolute;
+        width: 312px;
+        height: 263px;
+        left: 564px;
+        top: 263.19px;
+        background: #FCFCFD;
+        box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.04);
+        border-radius: 20px;
+    }
+    div.Key{
+        position: absolute;
+        width: 312px;
+        height: 263px;
+        left: 933.02px;
+        top: 263.19px;
+    }
+    div.Access{
+        position: absolute;
+        width: 312px;
+        height: 263px;
+        left: 130px;
+        top: 558.18px;
+        p.text{
+            height: 62px;
+            width: 279px;
+            border-radius: nullpx;
+        }
+    }
+    div.Staking{
+        position: absolute;
+        width: 312px;
+        height: 263px;
+        left: 564px;
+        top: 558.18px;
+    }
+    div.Benefit{
+        position: absolute;
+        width: 312px;
+        height: 263px;
+        left: 933.02px;
+        top: 558.18px;
+        p.text{
+            height: 62px;
+            width: 262px;
+            border-radius: nullpx;
+        }
+    }
+}

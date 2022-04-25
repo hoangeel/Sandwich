@@ -1,0 +1,109 @@
+div.TheMostDeliciousTools{
+    position: relative;
+    height: 1368px;
+    width: 1440px;
+    border-radius: 0px;
+    padding: 100px, 329px, 100px, 330px;
+    background: #F4F5F6;
+    h1{
+        position: absolute;
+        width: 625px;
+        height: 56px;
+        left: 408px;
+        top: 97.5px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #23262F;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 20px 0px;
+    }   
+    p{
+        position: absolute;
+        width: 587px;
+        height: 62px;
+        left: 427px;
+        top: 173.5px; 
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 31px;
+        text-align: center;
+        color: #777E91;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 20px 0px;
+    }
+    div.SandwichLaunch{
+        background: url(./img/center_box_4.png);
+        height: 420px;
+        width: 373px;
+        left: 330px;
+        top: 285.5px;
+        border-radius: 20px;
+        padding: 85px, 32px, 85px, 32px;
+        position: absolute;
+    }
+    div.SandwichSAFU{
+        background: url(./img/center_box_3.png);
+        height: 420px;
+        width: 373px;
+        left: 738px;
+        top: 285.5px;
+        border-radius: 20px;
+        padding: 85px, 32px, 85px, 32px;
+        position: absolute;       
+    }
+    div.SandwichTools{
+        background: url(./img/center_box_1.png);
+        height: 420px;
+        width: 373px;
+        left: 330px;
+        top: 740.5px;
+        border-radius: 20px;
+        padding: 85px, 32px, 85px, 32px;
+        position: absolute;        
+    }
+    div.SandwichSwap{
+        background: url(./img/center_box_2.png);
+        height: 420px;
+        width: 373px;
+        left: 738px;
+        top: 740.5px;
+        border-radius: 20px;
+        padding: 85px, 32px, 85px, 32px;
+        position: absolute;        
+    }
+    button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 22px 35px;
+        position: absolute;
+        width: 164px;
+        height: 60px;
+        left: 638.5px;
+        top: 1210.5px;
+        background: #FF5757;
+        border-radius: 90px;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        margin: 50px 0px;
+        border: #F4F5F6;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FCFCFD;
+    }
+}
