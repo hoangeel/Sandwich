@@ -5,7 +5,7 @@ div.header{
     height: 971px;
     div.menu{
         height: 93px;
-        width: 1440px;
+        width:100%;
         left: -1px;
         top: 5px;
         border-radius: 0px;
@@ -14,11 +14,15 @@ div.header{
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
         img{
             height: 46px;
-            width: 148px;
+            max-width: 148px;
+            width: 100%;
             left: 80px;
             top: 23px;
             border-radius: 0px;
             position: absolute;
+        }
+        img:hover{
+            cursor:pointer;
         }
         div.divider{
             height: 40px;
@@ -36,9 +40,10 @@ div.header{
             align-items: center;
             padding: 16px 24px;
             position: absolute;
-            width: 153px;
+            max-width: 153px;
+            width: 100%;
             height: 48px;
-            right: 80px;
+            left:1207px;
             top: 22px;
             background: #35C4FF;
             border-radius: 90px;
@@ -65,7 +70,8 @@ div.header{
             li.SandwichBeta{
                 padding:0px ;
                 height: 16px;
-                width: 98px;
+                max-width: 98px;
+                width: 100%;
                 left: 347px;
                 top: 40px;
                 border-radius: nullpx;
@@ -73,7 +79,8 @@ div.header{
             }
             li.SandwichSAFU{
                 height: 16px;
-                width: 105px;
+                max-width: 105px;
+                width: 100%;
                 left: 535.5px;
                 top: 40px;
                 border-radius: nullpx;                
@@ -81,7 +88,8 @@ div.header{
             }
             li.SandwichTools{
                 height: 16px;
-                width: 103px;
+                max-width: 103px;
+                width: 100%;
                 left: 719.5px;
                 top: 40px;
                 border-radius: nullpx;
@@ -89,7 +97,8 @@ div.header{
             }
             li.SandwichSwap{
                 height: 16px;
-                width: 105px;
+                max-width: 105px;
+                width: 100%;
                 left: 901.5px;
                 top: 40px;
                 border-radius: nullpx;
@@ -101,10 +110,10 @@ div.header{
                 padding: 0px;
                 border:#FFFFFF;
                 background: #FFFFFF;
-
             }
             button.Comingsoon{
-                width: 90px;
+                max-width: 90px;
+                width: 100%;
                 height: 12px;
                 font-family: 'Inter';
                 font-style: normal;
@@ -121,7 +130,8 @@ div.header{
     div.Crypto_Compositions_1{
         background: url(./img/Crypto_Compositions_1.png);
         position: absolute;
-        width: 136px;
+        max-width: 136px;
+        width: 100%;
         height: 116px;
         left: -76px;
         top: 92px;        
@@ -129,7 +139,8 @@ div.header{
     div.Crypto_Compositions_2{
         background: url(./img/Crypto_Compositions_2.png);
         position: absolute;
-        width: 77px;
+        max-width: 77px;
+        width: 100%;
         height: 66px;
         left: 496px;
         top: 117px;
@@ -139,7 +150,8 @@ div.header{
     div.Crypto_Compositions_3{
         background: url(./img/Crypto_Compositions_3.png);
         position: absolute;
-        width: 64.41px;
+        max-width: 64.41px;
+        width: 100%;
         height: 55.25px;
         left: 700px;
         top: 180px;        
@@ -147,7 +159,8 @@ div.header{
     div.Crypto_Compositions_4{
         background: url(./img/Crypto_Compositions_4.png);
         position: absolute;
-        width: 156.06px;
+        max-width: 156.06px;
+        width: 100%;
         height: 133.88px;
         left: 1296.06px;
         top: 389.31px;
@@ -155,7 +168,8 @@ div.header{
     div.Crypto_Compositions_5{
         background: url(./img/Crypto_Compositions_5.png);
         position: absolute;
-        width: 37px;
+        max-width: 37px;
+        width: 100%;
         height: 32px;
         left: 643px;
         top: 619px;
@@ -163,7 +177,8 @@ div.header{
     div.Crypto_Compositions_6{
         background: url(./img/Crypto_Compositions_6.png);
         position: absolute;
-        width: 74px;
+        max-width: 74px;
+        width: 100%;
         height: 64px;
         left: -43px;
         top: 732px;        
@@ -171,7 +186,8 @@ div.header{
     div.Crypto_Compositions_7{
         background: url(./img/Crypto_Compositions_7.png);
         position: absolute;
-        width: 101px;
+        max-width: 101px;
+        width: 100%;
         height: 259px;
         left: 1336px;
         top: 635px;        
@@ -179,7 +195,8 @@ div.header{
     div.Crypto_Compositions_8{
         background: url(./img/Crypto_Compositions_8.png);
         position: absolute;
-        width: 86.7px;
+        max-width: 86.7px;
+        width: 100%;
         height: 74.38px;
         left: 734px;
         top: 457.31px;      
@@ -187,14 +204,16 @@ div.header{
     div.image3{
         background: url(./img/image3.png); 
         position: absolute;
-        width: 616.25px;
+        max-width: 616.25px;
+        width: 100%;
         height: 616.25px;
         left: 762.69px;
         top: 180px;
     }
     div.title{
         position:absolute;
-        width: 613px;
+        max-width: 613px;
+        width: 100%;
         height: 163px;
         left: 120px;
         top: 285.5px;
@@ -217,7 +236,8 @@ div.header{
     }
     div.text{
         position: absolute;
-        width: 523px;
+        max-width: 523px;
+        width: 100%;
         height: 93px;
         left: 120px;
         top: 479px;   
@@ -240,7 +260,8 @@ div.header{
         align-items: center;
         padding: 22px 35px;
         position: absolute;
-        width: 164px;
+        max-width: 164px;
+        width: 100%;
         height: 60px;
         left: 120px;
         top: 619px;
@@ -259,7 +280,8 @@ div.header{
     }
     button.PitchDeck{
         position: absolute;
-        width: 163px;
+        max-width: 163px;
+        width: 100%;
         height: 67px;
         left: 299px;
         top: 616px;
@@ -279,7 +301,8 @@ div.header{
         div.Binance{
             background: url(./img/PngItem_5.png);
             height: 37px;
-            width: 129px;
+            max-width: 129px;
+            width: 100%;
             left: 120px;
             top: 829px;
             border-radius: 0px;
@@ -288,14 +311,16 @@ div.header{
         div.Polygon{
             background: url(./img/PngItem_4.png);
             height: 29.98692512512207px;
-            width: 132.11956787109375px;
+            max-width: 132.11956787109375px;
+            width: 100%;
             left: 341px;
             top: 829px;
             border-radius: 0px;
             position: absolute; 
             p{
                 position: absolute;
-                width: 90px;
+                max-width: 90px;
+                width: 100%;
                 height: 15px;
                 left:23px;
                 top: 37px;
@@ -312,14 +337,16 @@ div.header{
         div.Ethereum{
             background: url(./img/PngItem_3.png);
             height: 45.63227462768555px;
-            width: 115.36294555664062px;
+            max-width: 115.36294555664062px;
+            width: 100%;
             left: 562px;
             top: 821px;
             border-radius: 0px;
             position: absolute; 
             p{
                 position: absolute;
-                width: 90px;
+                max-width: 90px;
+                width: 100%;
                 height: 15px;
                 left:32.07px;
                 top: 44.64px;
@@ -336,14 +363,16 @@ div.header{
         div.Solana{
             background: url(./img/PngItem_2.png);
             height: 45.63227462768555px;
-            width: 115.36294555664062px;
+            max-width: 115.36294555664062px;
+            width: 100%;
             left: 761px;
             top: 821px;
             border-radius: 0px;
             position: absolute;
             p{
                 position: absolute;
-                width: 90px;
+                max-width: 90px;
+                width: 100%;
                 height: 15px;
                 left:16px;
                 top: 45px;
@@ -360,14 +389,16 @@ div.header{
         div.Avalanche{
             background: url(./img/PngItem_1.png);
             height: 27px;
-            width: 138.36294555664062px;
+            max-width: 138.36294555664062px;
+            width: 100%;
             left: 944px;
             top: 826px;
             border-radius: 0px;
             position: absolute; 
             p{
                 position: absolute;
-                width: 90px;
+                max-width: 90px;
+                width: 100%;
                 height: 15px;
                 left:33px;
                 top: 36px;
